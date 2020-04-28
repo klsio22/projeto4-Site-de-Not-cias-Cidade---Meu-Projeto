@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+a:link, a:visited, a {
+    color: #B10333;
+    padding: 2px;
+}
+
+a:hover {
+    color: #e50040;
+}
+
+h2 {
+    font-size: 1em;
+    background-color: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: url(../img/fundo.png) repeat-x;
+}
+
+#conteiner {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#menu {
+    height: 150px;
+    background: url(../img/detalhe-topo.png)no-repeat right;
+    padding-top: 30px;
+}
+
+#menu .logo {
+    width: 156px;
+    height: 66px;
+    background: url(../img/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+
+#nav {
+    margin-top: 30px;
+    background: #B10333;
+    float: left;
+    font-size: 17.5px;
+}
+
+#nav li {
+    float: left;
+    display: block;
+    padding: 12px 16px;
+    background: url(../img/divisor.png) no-repeat left center;
+}
+
+#nav li a {
+    color: #fff;
+}
+
+#top #nav .first, .brasil #nav .second, .internacional #nav .thind, .economia #nav .fourth, .saude #nav .fifth, .ciencia #nav .sixth, .fotos #nav .seveth {
+    background: none;
+}
+
+#top ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0 5.5px;
+    line-height: 1.5em;
+}
+
+#top ul a:hover {
+    color: #69001d;
+}
+
+.home #nav li#home, .brasil #nav li#brasil, .internacional #nav li#internacional, .economia #nav li#economia, .saude #nav li#saude, .ciencia #nav li#ciencia, .fotos #nav li#fotos {
+    color: #fff;
+    background-color: #de003e;
+    cursor: text;
+}
+
+#content {
+    padding-top: 60px;
+}
+
+#side {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -780px;
+}
+
+#side ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000000;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#side ul a:hover {
+    background: url(../img/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+label{
+	display: block;
+	cursor: pointer;
+}
+
+input {
+    padding:5px 0;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+input.submit {
+    width: 65px;
+    color: #fff;
+    background-color: #b10333;
+    border: 3px solid #870529;
+    cursor: pointer;
+}
+
+#primary {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 205px;
+}
+
+.brasil #conteiner #primary {
+    width: 555px;
+}
+
+.fotos #conteiner #primary {
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+#secudary {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 30px;
+}
+
+.box {
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(../img/fundo-caixa.png);
+}
+
+.box-content {
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.box-content a.read-more {
+    text-decoration: underline;
+}
+
+.featured h3 {
+    background: #b10333;
+    color: #fff;
+}
+
+.interview h3 {
+    background: #b10333;
+    color: #fff;
+}
+
+.img-main {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+.lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+}
+
+.lista-noticias li a img {
+    float: left;
+    margin: 5px;
+}
+
+.lista-noticias li a h3 {
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+.lista-noticias li a p {
+    font-size: 0.7em;
+    padding: 0;
+    color: #000000;
+}
+
+#footer {
+    clear: both;
+    background: #294C71;
+    padding: 20px;
+}
+
+#footer-content {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
